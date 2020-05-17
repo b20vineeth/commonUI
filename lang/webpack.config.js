@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [new HtmlWebpackPlugin({
     filename: 'index.html',  // name of the file that is going to get created and placed in dist folder
-    template: 'src/template.html'
+    template: '../template.html'
   }) ,
   new BrotliPlugin({
     asset: '[path].br[query]',

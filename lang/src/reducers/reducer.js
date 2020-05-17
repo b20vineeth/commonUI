@@ -1,22 +1,21 @@
- 
-
+import * as type from "../actions/action-type"
 const initialStateContacts = {
-  login:{
-    username:"",
-    password:"",
-    status:""
-  } 
+  language: {
+    langCode: "",
+    langName: "",
+    status: "",
+    msg : ""
+  }
 }
- 
-export const loginReducer = (state = initialStateContacts, action) => {
- 
+
+export const languageReducer = (state = initialStateContacts, action) => {
   switch (action.type) {
 
-    case "STORE_LOGIN_STATUS":
-     {   debugger;
-       return Object.assign({}, state, { login: action.data })   
-     }
-   
+    case type.STORE_LANGUAGE:
+      return Object.assign({}, state, { language: action.data })
+    case type.CLEAR_LANGUAGE:
+      return Object.assign({}, state, { language: action.data })
+      
     default:
       return state
   }

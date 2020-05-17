@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)#tags# -->
+<html class="html__responsive">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Purple Admin</title>
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196">
+  <link rel="apple-touch-icon"
+    href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a">
+  <link rel="image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a">
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="#opensearch.xml">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#tags">
+  <meta property="og:site_name" content="Stack Overflow">
+  <meta property="og:image" itemprop="image primaryImageOfPage"
+    content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:domain" content="MalluReport.com">
+  <meta name="twitter:title" property="og:title" itemprop="name" content="Tags">
+  <meta name="twitter:description" property="og:description" itemprop="description"
+    content="Purple Admin">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script async="" src="http://localhost:3000/static/quant.js"></script>
+  <script async="" src="http://localhost:3000/static/beacon.js"></script>
+  <script src="http://localhost:3000/static/stub.en.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/stacks.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/primary.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:3000/static/secondary.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <meta name="robots" content="noindex">
+<style>
+ .errorMsg
+	  {
+		color:red;
+		font-size:15px;
+		margin-top:15px;
+		
+	  }
+	  .warningMsg{
+	  color:orange;
+		font-size:15px;
+		margin-top:15px;
+	  }
+	  </style>
+
+  <noscript id="noscript-css">
+    <style>
+      body,
+      .top-bar {
+        margin-top: 1.9em
+      }
+	 
+    </style>
+  </noscript>
+  <script async="" src="http://localhost:3000/static/full-anon.en.js"></script>
+</head>
+
+<body class="tags-page unified-theme">
+  <div id="notify-container"></div>
+  <div id="custom-header"></div>
+
+  <header class="top-bar js-top-bar top-bar__network _fixed">
+    <div class="wmx12 mx-auto grid ai-center h100" role="menubar">
+      <div class="-main grid--cell">
+        <a href="#tags#" class="left-sidebar-toggle p0 ai-center jc-center js-left-sidebar-toggle" role="menuitem"
+          aria-haspopup="true" aria-controls="left-sidebar" aria-expanded="false"><span class="ps-relative"></span></a>
+        <div class="topbar-dialog leftnav-dialog js-leftnav-dialog dno">
+          <div class="left-sidebar js-unpinned-left-sidebar" data-is-here-when="sm" data-can-be="left-sidebar"></div>
+        </div>
+        <a href="https://stackoverflow.com/" class="-logo js-gps-track"
+          data-gps-track="top_nav.click({is_current:false, location:24, destination:8})">
+          <span class="-img _glyph">Stack Overflow</span>
+        </a>
+
+
+
+      </div>
+
+      <ol class="list-reset grid gs4" role="presentation">
+        <li class="grid--cell">
+          <a href="#tags#" class="-marketing-link js-gps-track js-products-menu" aria-controls="products-popover"
+            data-controller="s-popover" data-action="s-popover#toggle" data-s-popover-placement="bottom"
+            data-s-popover-toggle-class="is-selected"
+            data-gps-track="top_nav.products.click({location:24, destination:1})"
+            data-ga="[&quot;top navigation&quot;,&quot;products menu click&quot;,null,null,null]">
+            Products
+          </a>
+        </li>
+
+        <li class="grid--cell md:d-none">
+          <a href="#teams/customers" class="-marketing-link js-gps-track"
+            data-gps-track="top_nav.products.click({location:24, destination:7})"
+            data-ga="[&quot;top navigation&quot;,&quot;customers menu click&quot;,null,null,null]">Customers</a>
+        </li>
+        <li class="grid--cell md:d-none">
+          <a href="#teams/use-cases" class="-marketing-link js-gps-track"
+            data-gps-track="top_nav.products.click({location:24, destination:8})"
+            data-ga="[&quot;top navigation&quot;,&quot;use cases menu click&quot;,null,null,null]">Use cases</a>
+        </li>
+      </ol>
+      <div class="s-popover ws2 p6" id="products-popover" role="menu" aria-hidden="true">
+        <div class="s-popover--arrow"></div>
+        <ol class="list-reset s-anchors s-anchors__inherit">
+          <li>
+            <a href="#questions" class="d-block py6 px6 bar-sm h:bg-black-100 js-gps-track"
+              data-gps-track="top_nav.products.click({location:24, destination:2})"
+              data-ga="[&quot;top navigation&quot;,&quot;public qa submenu click&quot;,null,null,null]">
+              <span class="fs-body1 d-block">Stack Overflow</span>
+              <span class="fs-caption d-block fc-light">Public questions and answers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#teams" class="d-block py6 px6 bar-sm h:bg-black-100 js-gps-track"
+              data-gps-track="top_nav.products.click({location:24, destination:3})"
+              data-ga="[&quot;top navigation&quot;,&quot;teams submenu click&quot;,null,null,null]">
+              <span class="fs-body1 d-block">Teams</span>
+              <span class="fs-caption d-block fc-light">Private questions and answers for your team</span>
+            </a>
+          </li>
+          <li>
+            <a href="#enterprise" class="d-block py6 px6 bar-sm h:bg-black-100 js-gps-track"
+              data-gps-track="top_nav.products.click({location:24, destination:4})"
+              data-ga="[&quot;top navigation&quot;,&quot;enterprise submenu click&quot;,null,null,null]">
+              <span class="fs-body1 d-block">Enterprise</span>
+              <span class="fs-caption d-block fc-light">Private self-hosted questions and answers for your
+                enterprise</span>
+            </a>
+          </li>
+          <li class="bt bc-black-3 mln6 mrn6 mt6 pt6 px6">
+            <a href="#talent" class="d-block py6 px6 bar-sm h:bg-black-100 js-gps-track"
+              data-gps-track="top_nav.products.click({location:24, destination:5})"
+              data-ga="[&quot;top navigation&quot;,&quot;talent submenu click&quot;,null,null,null]">
+              <span class="fs-body1 d-block">Talent</span>
+              <span class="fs-caption d-block fc-light">Hire technical talent</span>
+            </a>
+          </li>
+          <li>
+            <a href="#advertising" class="d-block py6 px6 bar-sm h:bg-black-100 js-gps-track"
+              data-gps-track="top_nav.products.click({location:24, destination:6})"
+              data-ga="[&quot;top navigation&quot;,&quot;advertising submenu click&quot;,null,null,null]">
+              <span class="fs-body1 d-block">Advertising</span>
+              <span class="fs-caption d-block fc-light">Reach developers worldwide</span>
+            </a>
+          </li>
+
+        </ol>
+      </div>
+
+
+
+      <ol class="overflow-x-auto ml-auto -secondary grid ai-center list-reset h100 user-logged-out" role="presentation">
+
+
+        <li class="-ctas">
+
+
+          <a href="/logout"> <i class='fas fa-power-off'></i></a>
+
+        </li>
+
+      </ol>
+    </div>
+  </header>
+
+
+  <script>
+    Mallureport.ready(function () { Mallureport.topbar.init(); });
+    Mallureport.scrollPadding.setPaddingTop(50, 10);  
+
+
+<script type="text/javascript">
+  
+  function okBtn()
+  {
+    $('#myModal').modal('hide');
+    window.callBackFun("OK");
+  }
+  function closeBtn()
+  {
+    $('#myModal').modal('hide');
+    window.callBackFun("CLOSE");
+  }
+ 
+  </script>
+
+	</script>
+
+
+
+
+
+  <div class="container">
+
+
+    <div data-is-here-when="md lg" class="left-sidebar js-pinned-left-sidebar ps-relative" id="left-sidebar">
+      <div class="left-sidebar--sticky-container js-sticky-leftnav">
+        <nav role="navigation">
+
+
+
+
+          <ul class="mainmenu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Products</a>
+              <ul class="submenu">
+                <li> <a href=""> &nbsp;Tops</a></li>
+                <li> <a href=""> &nbsp;Bottoms</a></li>
+                <li> <a href=""> &nbsp;Footwear</a></li>
+              </ul>
+            </li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </nav>
+      </div>
+
+
+      <div class="s-popover w-auto p16" id="popover-teams-create-cta" role="menu" aria-hidden="true">
+        <div class="s-popover--arrow"></div>
+
+        <div class="ps-relative overflow-hidden">
+          <p class="mb2"><strong>Teams</strong></p>
+          <p class="mb16 fs-caption fc-medium">Q&amp;A for Work</p>
+          <p class="mb8 fs-caption fc-medium">
+
+              for Teams is a private, secure spot for you and
+            your coworkers to find and share information.
+          </p>
+          <a href="#teams" class="js-gps-track ws-nowrap d-block"
+            data-gps-track="teams.create.left-sidenav.click({ Action: CtaClick })"
+            data-ga="[&quot;teams left navigation - anonymous&quot;,&quot;left nav cta&quot;,&quot;stackoverflow.com/teams&quot;,null,null]">
+            Learn more </a>
+        </div>
+
+        <div class="ps-absolute t8 r8">
+          <svg width="53" height="49" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M49 11l.2 31H18.9L9 49v-7H4V8h31" fill="#CCEAFF"></path>
+            <path d="M44.5 19v-.3l-.2-.1-18-13-.1-.1H.5v33h4V46l.8-.6 9.9-6.9h29.3V19z" stroke="#1060E1"
+              stroke-miterlimit="10"></path>
+            <path d="M31 2l6-1.5 7 2V38H14.9L5 45v-7H1V6h25l5-4z" fill="#fff"></path>
+            <path d="M7 16.5h13m-13 6h14m-14 6h18" stroke="#1060E1" stroke-miterlimit="10"></path>
+            <path d="M39 30a14 14 0 1 0 0-28 14 14 0 0 0 0 28z" fill="#FFB935"></path>
+            <path d="M50.5 14a13.5 13.5 0 1 1-27 0 13.5 13.5 0 0 1 27 0z" stroke="#F48024" stroke-miterlimit="10">
+            </path>
+            <path d="M32.5 21.5v-8h9v8h-9zm2-9.5V9.3A2.5 2.5 0 0 1 37 6.8a2.5 2.5 0 0 1 2.5 2.5V12h-5zm2 3v2m1-2v2"
+              stroke="#fff" stroke-miterlimit="10"></path>
+          </svg>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div id="content" class="snippet-hidden">
+	
+	 
+	
+	
+	
+	
+	
+	
+	
+	
+   <div id="container"> </div>
+    </div>
+  </div>
+  <footer id="footer" class="site-footer js-footer" role="contentinfo">
+   <a href="#" > Footer</a>
+  </footer>
+  
+  
+ 
+ 
+
+ 
+   
+
+<script type="text/javascript">
+var domain="http://localhost:3000";
+function getConfig()
+{
+  var config={
+    domain:domain
+  }
+  return config;
+} 
+  
+</script>
+
+
+
+</body>
+
+</html>

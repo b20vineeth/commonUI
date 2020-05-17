@@ -1,5 +1,5 @@
 {
-  "name": "example7",
+  "name": "language",
   "version": "1.0.0",
   "description": "contact app",
   "main": "index.js",
@@ -42,7 +42,7 @@
     "jqvmap": "^1.5.1",
     "js-cookie": "^2.2.1",
     "lodash": "^4.17.14",
-    "mallureport-common-lib": "^1.0.9",
+    "mallureport-common-lib": "file:../../mallureport-common-lib",
     "normalize.css": "^8.0.1",
     "pixeden-stroke-7-icon": "^1.2.3",
     "popper.js": "^1.16.1",

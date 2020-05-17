@@ -1,10 +1,10 @@
 import React, { Component } from 'react'  
-import LoginContainer from '../containers/LoginContainer'
+import LanguageContainer from '../containers/LanguageContainer'
 export default class App extends Component {
   render() { 
     return (
      
-          <LoginContainer/>
+          <LanguageContainer/>
        
     )
   }
