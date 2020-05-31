@@ -1,0 +1,14 @@
+{
+    "presets": [
+     [
+      "@babel/preset-env",
+      {
+         "modules": false
+      // "modules": 'commonjs'
+      }
+     ],
+     "@babel/preset-react" //otherwise jsx wont be identified
+        ],
+    "plugins": [
+     "@babel/plugin-proposal-class-properties" ]
+   }

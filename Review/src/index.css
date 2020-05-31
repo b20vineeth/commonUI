@@ -1,0 +1,16 @@
+.padd {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+.rbt-token {
+    background-color:#ecf0f1 !important ;
+    border: 0;
+    border-radius: .25rem;
+    color: #9b0ea5 !important;
+    display: inline-block;
+    line-height: 1em;
+    margin: 1px 3px 2px 0;
+    padding: 4px 7px;
+    position: relative;
+
+}
