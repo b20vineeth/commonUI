@@ -207,7 +207,7 @@ class ReviewPanel extends Component {
                         type="text"
                         label="Review"
                         component={common.renderField}
-                        validate={[common.StringValidation.required]}
+                        validate={[common.StringValidation.required,common.StringValidation.number,common.StringValidation.rate10]}
                       />
 
                 </div>

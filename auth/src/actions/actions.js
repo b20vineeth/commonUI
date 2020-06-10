@@ -12,9 +12,9 @@ export function onLogin(values) {
     axios.post(config.domain + '/auth', state.form.LoginForm.values)
         .then(function (response) {
             var data={username:state.form.LoginForm.values.username,status: response.data.status}
-          //  console.log(data);
+            console.log(data);
             dispatch({ type: 'STORE_LOGIN_STATUS', data:data});
-           // console.log(response.data.status);
+          console.log(response.data.status);
         }).catch(error => {
             console.log(error);
         });

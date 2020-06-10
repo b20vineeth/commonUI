@@ -16,33 +16,36 @@ class LoginPanel extends Component {
     return (
 
       <React.Fragment>
-
-
-        <form>
+ 
+         
           <Field
             name="username"
             type="text"
             component={common.renderField}
-            label="User Name" 
+            label="User name" 
           />
-          <Field
+           
+
+         
+         <Field
             name="password"
             type="password"
             component={common.renderField}
             label="Password" 
           />
-           
-          <button type="button" className="btn btn-block login-btn mb-4" onClick={this.onLogin}>Login</button>
- 
-          <div className="error"> {this.props.status=="FAIL"?" Invalid Username or password":""} </div>
-          {this.props.status=="SUCCESS"? window.location.reload():""}
-     
-        </form>
-
-
-      </React.Fragment>
-
-
+            
+         <div className="container-login100-form-btn m-t-20">
+           <button className="login100-form-btn" onClick={this.onLogin}>
+             Sign in
+           </button>
+         </div>
+          
+       
+         <div className="error"> {this.props.status=="FAIL"?" Invalid Username or password":""} </div>
+         {this.props.status=="SUCCESS"? window.location.reload():""}
+    
+      
+      </React.Fragment> 
     )
   }
 }
