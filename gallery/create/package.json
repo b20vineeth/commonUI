@@ -27,7 +27,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "brotli-webpack-plugin": "^1.1.0",
     "compression-webpack-plugin": "^4.0.0",
     "file-loader": "^6.0.0",
